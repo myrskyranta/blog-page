@@ -12,6 +12,7 @@
     padding: 15px;
 
 }
+
 .navbar a:hover {
     color: black;
 }
@@ -25,16 +26,16 @@
 }
 
 .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
     width: 600px;
     height: 300px;
-    background-color: #48AFC3;
+    background-color: #509877;
     border-radius: 25px;
     margin-top: 30px;
-    
+
 }
+
 .about {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
@@ -44,4 +45,37 @@
 .header1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+}
+
+.dashed {
+    border-top: 4px dashed #bbb;
+}
+#more_about_me {
+    float: left;
+}
+
+.project_links {
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background-color: #b1dac7;
+    padding-top: 10px;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.img_div {
+    height: 300px;
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.img1 {
+    height: 300px;
+    width: 500px;
+    border-radius: 25px;
+    padding-top: 10px;
 }
